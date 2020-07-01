@@ -14,22 +14,23 @@
 }
 
 .login-title {
+    font-weight: 1000;
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 7px;
     color: #ECA400;
+    margin-bottom: 20px;
 }
 
 .login-username,.login-password,.login-submit{
     width: 200px;
     background-color: #006992;
     color: #ECA400;
-    
     border-style: none;
     padding: 10px;
     text-align: center;
     border-radius: 8px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .login-username::placeholder,.login-password::placeholder {
@@ -48,9 +49,11 @@
 }
 
 .login-submit {
+    margin-top: 20px;
     width: 100px;
     color: #ECA400;
     outline: none;
+    font-weight: 1000;
 }
 
 .login-submit:hover {
