@@ -13,13 +13,18 @@
     font-family: 'Roboto', sans-serif;
 }
 
-.login-title {
+.login-title a {
+    cursor: pointer;
     font-weight: 1000;
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 7px;
     color: #ECA400;
     margin-bottom: 20px;
+    transition: 0.2s;
+}
+.login-title a:hover {
+    color: #a77500;
 }
 
 .login-username,.login-password,.login-submit{
@@ -37,11 +42,16 @@
     color: #ECA400;
 }
 
+.login-username:hover::placeholder,.login-password:hover::placeholder {
+    color: #a77500;
+}
+
 .login-username:focus,.login-password:focus {
     padding: none;
     margin: none;
     outline: none;
     border: 3px solid #ECA400;
+    transition: 0.3s;
 }
 
 .login-username:focus::placeholder,.login-password:focus::placeholder {
@@ -54,6 +64,7 @@
     color: #ECA400;
     outline: none;
     font-weight: 1000;
+    transition: 0.3s;
 }
 
 .login-submit:hover {
@@ -61,8 +72,14 @@
     color: #27476E;
     background-color: #ECA400;
     outline: none;
+    cursor: pointer;
 }
 
 body {
     background-color: #001D4A;
+}
+
+a {
+    text-decoration: none;
+
 }
