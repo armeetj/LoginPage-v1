@@ -1,19 +1,21 @@
 .login {
     margin: auto;
     width: 50%;
-    border: 15px solid #006992;
+    border: 5px solid #006992;
     text-align: center;
     padding: 30px;
-    border-radius: 10px;
+    border-radius: 20px;
     color: white;
     background-color: #27476E;
     margin-top: 20em;
 }
 
 .login-form {
+    font-family: 'Roboto', sans-serif;
 }
 
-.login-username,.login-password {
+.login-username,.login-password,.login-submit{
+    width: 200px;
     background-color: #006992;
     color: white;
     border-style: none;
@@ -23,10 +25,17 @@
     margin-bottom: 20px;
 }
 
+.login-submit {
+    width: 100px;
+    color: #ECA400;
+
+}
+
 
 
 .login-title {
     text-align: center;
+    color: #ECA400;
 }
 
 body {
