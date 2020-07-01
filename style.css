@@ -1,0 +1,28 @@
+.login {
+    margin: auto;
+    width: 50%;
+    border: 2px solid red;
+    text-align: center;
+    padding: 30px;
+    border-radius: 10px;
+    color: white;
+}
+
+.login-form {
+}
+
+.login-username,.login-password {
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+.login-title {
+    text-align: center;
+}
+
+body {
+    background-color: #23022E;
+
+}
