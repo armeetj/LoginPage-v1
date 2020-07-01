@@ -44,7 +44,7 @@
 }
 
 .login-username:focus::placeholder,.login-password:focus::placeholder {
-    display: none;
+    color: transparent;
 }
 
 .login-submit {
