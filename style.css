@@ -4,7 +4,7 @@
     border: 5px solid #006992;
     text-align: center;
     padding: 30px;
-    border-radius: 20px;
+    border-radius: 10px;
     color: white;
     background-color: #27476E;
     margin-top: 20em;
@@ -18,12 +18,18 @@
     width: 200px;
     background-color: #006992;
     color: white;
+    
     border-style: none;
     padding: 10px;
     text-align: center;
-    border-radius: 20px;
+    border-radius: 8px;
     margin-bottom: 20px;
 }
+
+.login-username::placeholder,.login-password::placeholder {
+    color: #ECA400;
+}
+
 
 .login-submit {
     width: 100px;
